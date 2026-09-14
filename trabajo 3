@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N, M, A;
+    if (cin >> N >> M >> A) {
+        // Si los tres números son distintos entre sí
+        if (N != M && M != A && N != A) {
+            cout << "ELLA NO TE AMA\n";
+        } else {
+            cout << "ELLA TE AMA\n";
+        }
+    }
+    return 0;
+}
